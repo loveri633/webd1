@@ -180,10 +180,59 @@ header a {
     margin-top: 32px;
 }
 
+.like {
+    text-align: center;
+    padding: 180px 180px 240px 180px;
+    /* background-image: url(images/favorite-background.png); */
+    /* background-size: cover; */
+    background-color: #fffdf3;
+}
+
+.like h2 {
+    font-size: 64px;
+    letter-spacing: 0.1em;
+    /* color: #ffffff; */
+    border-bottom: 3px solid #fa327f;
+    display: inline-block;
+}
+
+.like-contents {
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.like-content {
+    width: 330px;
+    padding: 30px;
+    /* ここ付け加えてみた　#4 */
+    margin: 10px;
+    background-color: rgba(255,255,255,0.8);
+    border-radius: 16px;
+}
+
+.like-content img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.like-content h3 {
+    font-size: 24px;
+    margin-top: 16px;
+}
+
+.like-content p {
+    font-size: 16px;
+    text-align: left;
+    margin-top: 32px;
+}
+
 .works {
     padding: 180px;
     text-align: center;
-    background-color: #fffdf3;
+    background-color: #fcd7e5;
 }
 
 .works h2 {
@@ -230,7 +279,7 @@ header a {
     /* ここの値変えてみた */
     padding: 180px 200px;
     text-align: center;
-    background-color: #fcd7e5;
+    background-color: #fffdf3;
 }
 
 .contact h2 {
